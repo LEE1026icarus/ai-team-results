@@ -1,0 +1,32 @@
+{
+  "job_id": "20260517-d404e5",
+  "created_at": "2026-05-17T01:15:37.631754+09:00",
+  "updated_at": "2026-05-17T01:27:39.750878+09:00",
+  "source": "hermes",
+  "request": "철도 사고 유형별 심각도에 영향을 미치는 연관 요인 분석 관련 연구 리서치",
+  "status": "completed",
+  "current_step": "Research 완료",
+  "assigned_team": "research",
+  "executor": "hermes",
+  "priority": "normal",
+  "cwd": "/home/ubuntu/ai_team/workspace",
+  "allowed_tools": [
+    "read",
+    "write",
+    "shell_limited"
+  ],
+  "denied_tools": [
+    "delete",
+    "read_secrets",
+    "send_external"
+  ],
+  "approval_required": false,
+  "timeout_sec": 1800,
+  "parent_job_id": null,
+  "agents_used": [
+    "hermes"
+  ],
+  "artifacts": [],
+  "summary": "# Research Worker\n이카루스님, 요청하신 리서치 보고서를 Markdown 파일로 작성해 저장했습니다.\n\n현재 상황\n- 철도 사고 유형별 심각도 영향 요인 관련 국내외 연구를 조사했습니다.\n- 논문 DOI는 Crossref/출판사 DOI 기반으로 확인 가능한 항목 위주로 정리했습니다.\n- 국내 학술논문은 공개 메타데이터 검증이 제한되어, 확정 인용 가능한 공식 자료·데이터 출처와 학술 DB 검색 경로를 분리해 표기했습니다.\n\n완료된 일\n- 산출물 (1) 국내외 핵심 논문/보고서 목록\n- 산출물 (2) 사고 유형별 심각도 ",
+  "error": null
+}
