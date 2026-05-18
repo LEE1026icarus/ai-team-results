@@ -1,0 +1,40 @@
+{
+  "job_id": "20260517-7e992c",
+  "created_at": "2026-05-17T22:36:03.649304+09:00",
+  "updated_at": "2026-05-17T22:46:11.249024+09:00",
+  "source": "hermes",
+  "request": "깃허브 스타가 갑자기 많이 증가한(떡상한) 레포지토리를 매일 자동으로 모니터링하고 받아볼 수 있는 방법 리서치. GitHub Trending, GitHub Archive(GH Archive), OSS Insight, GitHub API(star history), GitStar Ranking 등 활용 가능한 데이터 소스 조사. 뉴스레터/RSS/API 폴링/GitHub Actions 크론 등 자동 수집 방식과 Discord/슬랙/SMS 등 알림 연동 방법까지 포함. 결과는 마크다운 리포트로 정리.",
+  "status": "completed",
+  "current_step": "Research 완료",
+  "assigned_team": "research",
+  "executor": "hermes",
+  "priority": "normal",
+  "cwd": "/home/ubuntu/ai_team/workspace",
+  "allowed_tools": [
+    "read",
+    "write",
+    "shell_limited"
+  ],
+  "denied_tools": [
+    "delete",
+    "read_secrets",
+    "send_external"
+  ],
+  "approval_required": false,
+  "timeout_sec": 1800,
+  "parent_job_id": null,
+  "agents_used": [
+    "hermes"
+  ],
+  "artifacts": [
+    {
+      "type": "markdown",
+      "path": "results/20260517-7e992c/20260517-7e992c_github-star-monitoring-research.md",
+      "title": "GitHub 스타 급증 레포지토리 자동 모니터링 리서치",
+      "created_by": "hermes",
+      "created_at": "2026-05-17T22:43:43.100665+09:00"
+    }
+  ],
+  "summary": "# Research Worker\n현재 상황:\n- 요청하신 GitHub 스타 급증 레포지토리 자동 모니터링 리서치를 완료했습니다.\n- 마크다운 리포트를 작성했고, save-result 호출까지 완료했습니다.\n\n완료된 일:\n- 조사 항목 1~9 전체 반영\n  - GitHub Trending\n  - GH Archive / WatchEvent\n  - OSS Insight API\n  - GitHub API v3\n  - GitStar Ranking\n  - Star History\n  - RSS/뉴스레터\n  - GitHub Actions cron",
+  "error": null
+}

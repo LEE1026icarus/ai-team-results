@@ -1,0 +1,32 @@
+{
+  "job_id": "20260517-110a74",
+  "created_at": "2026-05-17T03:42:05.799543+09:00",
+  "updated_at": "2026-05-17T03:57:49.653888+09:00",
+  "source": "hermes",
+  "request": "Yoonity Lab 웹사이트 재구축 (https://www.yoonity.kr) — 미래적/인터랙티브 AI 연구실 웹사이트, 3D Hero + 클린코드 + TDD",
+  "status": "archived",
+  "current_step": "stale: 산출물 미생성",
+  "assigned_team": "coding",
+  "executor": "hermes",
+  "priority": "normal",
+  "cwd": "/home/ubuntu/ai_team/workspace",
+  "allowed_tools": [
+    "read",
+    "write",
+    "shell_limited"
+  ],
+  "denied_tools": [
+    "delete",
+    "read_secrets",
+    "send_external"
+  ],
+  "approval_required": false,
+  "timeout_sec": 1800,
+  "parent_job_id": null,
+  "agents_used": [
+    "hermes"
+  ],
+  "artifacts": [],
+  "summary": "Coding 완료 보고했으나 워크스페이스에 코드 없음. 새 Job으로 재발행",
+  "error": null
+}

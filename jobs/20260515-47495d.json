@@ -1,0 +1,32 @@
+{
+  "job_id": "20260515-47495d",
+  "created_at": "2026-05-15T03:43:40.787776+09:00",
+  "updated_at": "2026-05-16T20:34:17.525218+09:00",
+  "source": "openclaw",
+  "request": "서버 구축 계획을 5단계로 정리해줘",
+  "status": "failed",
+  "current_step": "수동 종료: 타임아웃",
+  "assigned_team": "research_team",
+  "executor": "hermes",
+  "priority": "normal",
+  "cwd": "/home/ubuntu/ai_team/workspace",
+  "allowed_tools": [
+    "read",
+    "write",
+    "shell_limited"
+  ],
+  "denied_tools": [
+    "delete",
+    "read_secrets",
+    "send_external"
+  ],
+  "approval_required": false,
+  "timeout_sec": 1800,
+  "parent_job_id": null,
+  "agents_used": [
+    "hermes"
+  ],
+  "artifacts": [],
+  "summary": "2026-05-16 정리 — 어제 stuck된 job 수동 종료",
+  "error": null
+}

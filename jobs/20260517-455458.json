@@ -1,0 +1,32 @@
+{
+  "job_id": "20260517-455458",
+  "created_at": "2026-05-17T01:23:38.423085+09:00",
+  "updated_at": "2026-05-17T01:26:20.509644+09:00",
+  "source": "hermes",
+  "request": "[이순형(PM)] 철도 사고 유형별 심각도에 영향을 미치는 연관 요인 분석 관련한 연구들을 리서치해줘",
+  "status": "running",
+  "current_step": "Research Worker 조사 중",
+  "assigned_team": "Research",
+  "executor": "hermes",
+  "priority": "normal",
+  "cwd": "/home/ubuntu/ai_team/workspace",
+  "allowed_tools": [
+    "read",
+    "write",
+    "shell_limited"
+  ],
+  "denied_tools": [
+    "delete",
+    "read_secrets",
+    "send_external"
+  ],
+  "approval_required": false,
+  "timeout_sec": 1800,
+  "parent_job_id": null,
+  "agents_used": [
+    "hermes"
+  ],
+  "artifacts": [],
+  "summary": "",
+  "error": null
+}

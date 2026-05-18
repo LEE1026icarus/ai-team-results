@@ -1,0 +1,33 @@
+# ============================================
+# ai-team-results .gitignore
+# 정책: Git = 설계/설정/최종결과/요약/장애기록
+#       로컬 = raw log, 임시, 캐시, 대용량
+# ============================================
+
+# --- 로컬 전용 (Git 제외) ---
+*.log
+*.lock
+*.tmp
+*.bak
+logs/
+locks/
+cache/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+
+# --- 개인 메모 (로컬) ---
+memory/ephemeral/
+personal/
+
+# --- 대용량 산출물 ---
+*.zip
+*.tar.gz
+*.pkl
+*.bin
+*.onnx
+*.pt
+*.safetensors
+data/raw/
